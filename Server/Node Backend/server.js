@@ -3,9 +3,9 @@ var indico = require('indico.io');
 indico.apiKey =  '782bcfc058fd3c6e253db53e50afb9ee';
 var mysql = require('mysql');
 var response;
-	console.log("start");
+
 var server = http.createServer ( function(request,temp_response){
-	console.log("1");
+
 	response = temp_response;
     response.writeHead(200,{"Content-Type":"text\plain"});
     if (request.method == "GET" && request.url == "/article")
