@@ -13,10 +13,10 @@ var runtime = 0;
 function execute() {
 	console.log("Begin Cycle");
 	var connection = mysql.createConnection({
-	  host     : 'localhost',
-	  user     : 'root',
+	  host     : '',
+	  user     : '',
 	  password : '',
-	  database : 'tst2'
+	  database : ''
 	});
 		connection.connect(function(err) {
 	  if (err) {
