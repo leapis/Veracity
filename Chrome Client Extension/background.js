@@ -1,3 +1,5 @@
+//Javascript file for popup.html
+
 chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
   chrome.tabs.sendMessage(tabs[0].id, {greeting: "status"}, function(response) {
     var flag = false, error = false, data = false;
@@ -12,7 +14,7 @@ chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
       $("#loading").css("display", "block");
     }
     else {
-      //                Author data, article data, website data
+      //Author data, article data, website data
       labels = ["article_data", "author_data", "site_data"];
       switch (error){
         case 1:
