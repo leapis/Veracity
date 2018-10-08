@@ -150,7 +150,7 @@ function getSite(siteUrl, callback){
 function parseArticle(aText, author, articleUrl, callback){
 	var sentText = aText;
 	var sLbt, sLib, sCon, sG;
-	console.log("hey");
+	//console.log("hey");
 	var responsei = function(res) { 
 		sCon = res["Conservative"];
 		sLbt = res["Libertarian"];
