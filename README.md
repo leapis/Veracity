@@ -4,7 +4,7 @@ This was a group project for the 24 hour HackUC II hackathon hosted at Union Cou
 
 Our original Devpost project can be viewed here: [https://devpost.com/software/veracity-ai3lq1](https://devpost.com/software/veracity-ai3lq1)
 
-Another Github repo for this project is Eric's: [https://github.com/schneidere/Veracity](https://github.com/schneidere/Veracity)
+Another Github repo for this project is Steven's: [https://github.com/stevenshan/Veracity](https://github.com/stevenshan/Veracity)
 
 ## Inspiration
 We live in an information age like none other. Approximately 74.6% of the United States population has access to the Internet (according to a 2015 study), a resource upon which digital journalism has evolved and flourished. Thanks to this ever-strengthening trend, more and more Americans are increasingly relying upon free news articles written online as their primary or sole source of news.
